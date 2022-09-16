@@ -12,15 +12,13 @@ p{
 
 body{
     font-size: 16px;
-    background-color: #7EBDC3;
-    text-align: center;
+    background-color: #85F4FF;
+    
 }
 li{
     text-align: left;
 }
-.nome{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 .html{
     font-size: 25px;
 }
@@ -34,3 +32,18 @@ li{
     text-align: left;
 }
 
+.nome{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.foto{
+    
+    padding: 30px;
+    background-color: #B8FFF9 ;
+}
+
+.descriçao{
+    position: absolute;
+    left: 300px;
+    top: 300px;
+}
