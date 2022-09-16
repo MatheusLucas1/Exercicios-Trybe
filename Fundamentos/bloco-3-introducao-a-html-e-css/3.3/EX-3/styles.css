@@ -38,7 +38,7 @@ li{
 }
 .foto{
     
-    padding: 30px;
+    padding: 10px;
     background-color: #B8FFF9 ;
 }
 
@@ -46,4 +46,8 @@ li{
     position: absolute;
     left: 300px;
     top: 300px;
+}
+.impar{
+    padding: 5px;
+    background-color: white;
 }
