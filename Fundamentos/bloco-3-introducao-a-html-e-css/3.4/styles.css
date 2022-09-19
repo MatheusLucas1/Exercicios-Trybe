@@ -1,5 +1,28 @@
 
+body{
+    
+}
 
 p{
     font-size: 18px;
+    width: 50%;
+}
+
+
+
+.cores{
+    position: absolute;
+    left: 20%;
+    top: 50%;
+}
+
+.soco{
+
+    width: 300px;
+}
+
+.força{
+    position: absolute;
+    left: 20%;
+    top: 75%;
 }
