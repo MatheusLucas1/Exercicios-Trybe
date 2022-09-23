@@ -3,6 +3,8 @@ let soma = 0;
 
 for (let i = 0 ; i < numbers.length; i++){
     soma += numbers[i];
-    console.log(soma)
-
 }
+
+media = soma/numbers.length;
+    
+console.log(media)
