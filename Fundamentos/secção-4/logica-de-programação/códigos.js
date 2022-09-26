@@ -1,19 +1,16 @@
-let array = ['java', 'javascript', 'python', 'html', 'css'];
+let maiorPrimo = 0;
 
-maiorPalavra = array[0];
-menorPalavra = array[0];
 
-for(let i = 0; i<array.length; i+=1) {
-    if(array[i].length > maiorPalavra.length) {
-        maiorPalavra = array[i]
+
+for(let numero = 2; numero<=50; numero+=1) {
+    let isPrime = true;
+    for( let divisor = 2; divisor < numero;divisor++){
+        if (numero % divisor === 0){
+            isPrime = false
+        }
+    }
+    if (isPrime){
+        maiorPrimo = numero
     }
 }
-
-for(let i = 0 ; i < array.length ; i+=1) {
-    if (array[i].length< menorPalavra.length) {
-        menorPalavra = array[i]
-    }
-}
-
-console.log(maiorPalavra);
-console.log(menorPalavra)
+console.log(maiorPrimo)
