@@ -11,4 +11,4 @@ let leitor = {
     ],
   };
 
-console.log("O livro favorito de " + leitor.nome + " " + leitor.sobrenome + " é " + leitor.livrosFavoritos[0].titulo)
+console.log("O livro favorito de " + leitor.nome + " " + leitor.sobrenome + " é " + "'"+leitor.livrosFavoritos[0].titulo + "'")
