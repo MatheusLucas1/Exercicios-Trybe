@@ -80,3 +80,38 @@ function createDaysOfTheWeek() {
   }
 
   displayHolidays ()
+
+  function createFridayButton(buttonName) {
+    let buttonContainer = document.querySelector('.buttons-container');
+    let newButton = document.createElement('button');
+    let newButtonID = 'btn-friday';
+  
+    newButton.innerHTML = buttonName;
+    newButton.id = newButtonID;
+    buttonContainer.appendChild(newButton); //adiciona o botão como filho do container de botões
+  }
+
+  createFridayButton('Sexta-feira')
+
+
+  function displayFridays(fridaysArray){
+    let getFridayButton = document.querySelector('#btn-friday');
+    let fridays = document.getElementsByClassName('friday');
+    let newFridayText = 'SEXTOU o/'
+
+
+    getFridayButton.addEventListener('click', function() {
+      for (let i = 0; i < fridays.length; i+=1){
+        if (fridays[i].innerHTML !== newFridayText){
+          fridays[i].innerHTML = newFridayText
+        }
+        else {
+          fridays[i].innerHTML = fridaysArray[i]
+        }
+       
+      }
+
+    })
+  
+  let decemberFridays = [ 4, 11, 18, 25 ];
+  displayFridays(decemberFridays);
