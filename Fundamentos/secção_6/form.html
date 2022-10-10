@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.2.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <h1>FORMULÁRIO</h1>
+    <form action="" method="post">
+        <div class="mb-3">
+            <label for="username">Nome: </label>
+            <input type="text" required class="form-control" name="username" placeholder="nome de usuário" id="username">
+        </div>
+
+        <div class="mb-3">
+            <label for="email">Email:</label>
+            <input type="email" required  class="form-control" placeholder="email" name="email" id="email">
+        </div>
+
+        <div class="mb-3">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Cidade
+            </label>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Campo
+            </label>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Praia
+            </label>
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Montanha
+            </label>
+        </div>
+
+        <div class="mb-3">
+            <textarea name="motivo" id="textarea-1" class="form-control" cols="30" rows="10"></textarea>
+        </div>
+       
+        <div class="mb-3">
+            <label for="data">Data:</label>
+            <input type="date" name="data">
+        </div>
+
+        <div class="mb-3">
+            <label for="agree1">Concordo 1</label>
+            <input type="checkbox" name="agree1" class="form-check-input" id="flexCheckDefault">
+     
+            <label for="agree2">Concordo 2</label>
+            <input type="checkbox" name="agree2" class="form-check-input" id="flexCheckDefault">
+        </div>
+
+        <div class="mb-3">
+        <button type="button" required class="btn btn-outline-secondary">Enviar</button>
+        <button type="button" required class="btn btn-outline-secondary">Apagar</button>
+        </div>
+
+    </form>
+
+</body>
+</html>
