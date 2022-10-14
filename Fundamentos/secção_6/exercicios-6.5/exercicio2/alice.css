@@ -1,0 +1,25 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media screen and (min-width:393px) { 
+    body {
+        margin: 15px 20px;
+        font-size: larger;
+    }
+    h1 {
+        font-size: xx-large;
+    }
+    .links {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+    }
+    header p {
+        text-align: center;
+    }  
+}
