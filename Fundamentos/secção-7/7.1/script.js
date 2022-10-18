@@ -4,4 +4,4 @@ const sortOddsAndEvens = () => {
 
 // Seu código aqui.
 
-console.log(oddsAndEvens); // será necessário alterar essa linha 😉
+console.log(oddsAndEvens);}
