@@ -5,21 +5,60 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
   }
-
-@media screen and (min-width:393px) { 
+  
+  .container {
+    display: flex;
+  }
+  
+  p {
+    padding: 20px;
+  }
+  
+  /* TODO */
+  
+  /* Aqui está o primeiro breakpoint e os estilos definidos para ele */
+  
+  @media screen and (max-width: 600px) {
     body {
-        margin: 15px 20px;
-        font-size: larger;
+      background-color: lightcoral;
+      font-family: sans-serif;
     }
-    h1 {
-        font-size: xx-large;
+    .container {
+      flex-direction: column;
     }
-    .links {
-        display: flex;
-        flex-flow: row;
-        justify-content: space-between;
+  
+    p {
+      padding: 0 5px;
+      line-height: 1.5em;
     }
-    header p {
-        text-align: center;
-    }  
-}
+  
+    /* TODO */
+  }
+  
+  /* Aqui está o segundo breakpoint e os estilos definidos para ele */
+  
+  @media screen and (min-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  
+    .container {
+      flex-wrap: wrap;
+    }
+  
+    /* TODO */
+  }
+  
+  /* Aqui está o terceiro breakpoint e os estilos definidos para ele */
+  
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: lightgreen;
+    }
+  
+    .container {
+      flex-wrap: nowrap;
+    }
+  
+    /* TODO */
+  }
