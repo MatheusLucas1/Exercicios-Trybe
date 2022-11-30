@@ -3,7 +3,7 @@
 export function fillUsersSelect(users) {
   // Pega o select users-select
   const usersSelect = document.querySelector('#users-select');
-  
+
   // Faz uma iteração entre todos os itens do array
   users.map((user) => {
     // Cria um novo elemento do tipo option
@@ -81,6 +81,7 @@ export function fillFeaturedPostComments(comments) {
     commentsSection.appendChild(p);
   });
 }
+
 // Função usada para exibir a mensagem de erro
 // Recebe uma string com a mensagem de erro
 export function fillErrorMessage(errorMessage) {

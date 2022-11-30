@@ -1,0 +1,30 @@
+grupo 
+eu 
+Reynan Henry tribo A
+Vitor Alves Santos tribo B
+Thalita Costa tribo A 
+Felipe Matos tribo B
+
+passo 1 :
+Reestruturaçao do codigo;
+Contratação de mao de obra qualificada;
+Treinamento para os funcionarios atuais;
+Desenvolvimento de testes;
+Refazer com linguagem mais atualizada
+
+passo 2 :
+
+dividir a equipe para fazer as tarefas separadamente:
+1 pessoa para reestruturar o código;
+2 pessoas para trenar os funcionários;
+2 pesosas para desenvolvimento de testes
+
+fazer o sistema do zero com uma linguagem mais recente,
+a solução seria pegar a lógica do sistema atual e reestruturar ele em uma linguagem mais recente atendendo 
+as necessidades da empresa, com um ambiente de testes melhorado e robusto, e criar um manual de uso para os futuros funcionários
+e pessoas que irão revisar o código futuramente.
+
+desenvolver processo de reestruturaçao para que a empresa não fique 
+parada com o sistema parado e os funcionários não fiquem sem ter o que fazer 
+nesse período, com foco em quebrar os problemas grandes 
+em problemas pequenos.
